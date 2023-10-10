@@ -2,7 +2,6 @@
 
 namespace Restaurant.Menus
 {
-    //メニューの情報を格納するクラス(DrinkMenu、MainMenuの親クラス)
     //飲み物メニューの情報を格納するクラス(Menuから派生した子クラス)
     internal class DrinkMenu : Menu, IJsonWritable
     {
