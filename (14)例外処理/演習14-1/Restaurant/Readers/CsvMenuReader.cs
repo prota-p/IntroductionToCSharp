@@ -41,7 +41,10 @@ namespace Restaurant.Readers
                 string name = parts[ColumnName].Trim();
                 string description = parts[ColumnDescription].Trim();
 
-                int price = int.Parse(parts[ColumnPrice].Trim());
+                if (!int.TryParse(parts[ColumnPrice].Trim(), out int price))
+                {
+                    throw new MenuLoadException("Priceの値が無効です。", lineNumber);
+                }
 
                 Menu menu;
                 switch (type.ToLower())
