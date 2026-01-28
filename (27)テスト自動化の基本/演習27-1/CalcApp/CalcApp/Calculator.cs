@@ -1,5 +1,4 @@
-﻿
-using CalcApp;
+﻿namespace CalcApp;
 
 public class Calculator
 {

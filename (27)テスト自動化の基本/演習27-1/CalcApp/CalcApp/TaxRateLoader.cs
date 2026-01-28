@@ -1,5 +1,4 @@
-﻿
-namespace CalcApp;
+﻿namespace CalcApp;
 
 public class TaxRateLoader : ITaxRateLoader
 {
