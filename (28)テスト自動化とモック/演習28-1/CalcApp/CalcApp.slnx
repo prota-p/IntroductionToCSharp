@@ -1,0 +1,4 @@
+﻿<Solution>
+  <Project Path="CalcApp.Tests/CalcApp.Tests.csproj" />
+  <Project Path="CalcApp/CalcApp.csproj" />
+</Solution>
